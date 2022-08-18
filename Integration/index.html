@@ -1,22 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/reset.css">
-    <link rel="stylesheet" href="../styles/style.scss">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/style.scss" />
     <title>Document</title>
-</head>
-<body>
-    <span class="title_main">Titre</span>
-    <nav>
-        <div>Encyclopedie</div>
-        <div>chaine alimentaire</div>
-        <div>Tableau des espèces</div>
+  </head>
+  <body>
+    <!--Le Header-->
+    <div class="title_contener">
+      <span class="title_main">Titre</span>
+    </div>
+
+    <nav class="navbar">
+      <navlink class="nav-bar_cat">Encyclopedie</navlink>
+      <navlink class="nav-bar_cat">chaine alimentaire</navlink>
+      <navlink class="nav-bar_cat">Tableau des espèces</navlink>
+      <navlink class="nav-bar_cat">au hasard</navlink>
     </nav>
-    <div>Searchbar</div>
-    <span>Résultats</span>
+    <!--La page home-->
+    <div class="search-bar_container" >
+      <input class="search-bar" placeholder="Search"></input>
+    </div>
+    <div class="search_filter">
+        <div>Biome</div>
+        <div>Pays</div>
+        <div>Homnivore</div>
+    </div>
+      <!--que mettre dans la serchbar
+    pays
+    carnivore/herbivore
+    biome
+
+    -->
+      <span>Résultats</span>
     
-</body>
+  </body>
 </html>

@@ -1,9 +1,43 @@
 
 /*Header*/
 
-.title_main{
-    background-color: red;
-    color: yellow;
-    size: 3rem;
+/*titre*/
+.title_contener{
+    width: 100%;
     text-align: center;
+    padding: 2rem 0 0 0;
+}
+
+.title_main{
+    font-size: 8rem;
+    text-align: center;
+    padding: 2rem 0 0 0;
+    
+}
+
+/*Navbar*/
+.navbar{
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 0 1rem;
+}
+
+.nav-bar_cat{
+    margin: 0 1rem 0 0;
+    font-size: 2rem ;
+}
+
+/*la search-bar*/
+.search-bar_container{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0 0 0;
+}
+
+.search-bar{
+    margin: 0 auto 0 auto;
+    font-size: 1.5rem;
+    border: solid 1px red;
+    border-radius: 0.5rem;
+    padding: 0 0 0 0.8rem;
 }
