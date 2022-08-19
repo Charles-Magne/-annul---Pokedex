@@ -1,17 +1,44 @@
 
 @use "../../assets/styles/vars.scss";
 
+
+.Pseudo_Body{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+}
+
+.ad-Left{
+  width: 160px;
+  height: 600px;
+  margin: 2rem 0 0 2rem;
+  background-color: #f2f2f2;
+}
+
+//defini la taille de la page
+.page-container{
+  margin: 1rem 0 0 2rem;
+  width: 70%; 
+}
+
+.search-and-option-container{
+  padding: 0 0 0 0;
+ border: 1px solid vars.$green-black;
+ border-radius: 0.5rem;
+}
+
 /*la search-bar*/
 .search-bar_container {
   display: flex;
-  align-items: center;
+  justify-items: center;
   margin: 1rem 0 0 0;
 }
 
 .search-bar {
-  margin: 0 auto 0 auto;
-  font-size: 1.5rem;
-  border: solid 1px red;
+  margin: 0.5rem auto 0 auto;
+  font-size: 1.2rem;
+  border: solid 1px rgb(53, 52, 52);
   border-radius: 0.5rem;
   padding: 0 0 0 0.8rem;
 }
@@ -27,9 +54,58 @@
   border: solid 1px black;
   border-radius: 0.5rem;
   padding: 0.3rem 1rem;
+  margin: 0 0 1rem 0;
 }
 
 .number-results {
-  margin: 0 0 0 2rem;
+  margin: 1rem 0 1rem 2rem;
+  background-color: white;
+font-style: italic;
+}
+
+.card-animal{
   background-color: red;
+  display: flex;
+  flex-direction: row;
+}
+
+.img1{
+  width: 13%;
+}
+
+.selection-1{
+  margin: 1.2rem 0 0 0;
+}
+
+.name-espece-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.animal-name{
+  display: block;
+  font-size: 1.8rem;
+  margin: 0 1rem 0 4rem;
+  font-weight: 600;
+}
+
+.animal-sort{
+  margin: 0.6rem 0 0 0;
+}
+
+.animal-underSort{
+  margin: 0.6rem 0 0 1rem;
+}
+
+.biome-pays-regime{
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0 0 4rem;
+}
+
+
+.ad-right{
+  width: 160px;
+  height: 600px;
+  margin: 2rem 0 0 2rem;
 }
