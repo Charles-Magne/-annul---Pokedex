@@ -5,6 +5,7 @@
 .Pseudo_Body{
   display: flex;
   flex-direction: row;
+  justify-content: center;
   width: 100%;
 
 }
@@ -18,13 +19,13 @@
 
 //defini la taille de la page
 .page-container{
-  margin: 1rem 0 0 2rem;
+  margin: 2rem 4rem;
   width: 70%; 
 }
 
 .search-and-option-container{
   padding: 0 0 0 0;
- border: 1px solid vars.$green-black;
+ border: 1px solid vars.$green-main;
  border-radius: 0.5rem;
 }
 
@@ -38,9 +39,9 @@
 .search-bar {
   margin: 0.5rem auto 0 auto;
   font-size: 1.2rem;
-  border: solid 1px rgb(53, 52, 52);
+  border: solid 1px vars.$green-main;
   border-radius: 0.5rem;
-  padding: 0 0 0 0.8rem;
+  padding: 0.3rem 0.8rem;
 }
 
 .search_filter {
@@ -64,13 +65,17 @@ font-style: italic;
 }
 
 .card-animal{
-  background-color: red;
+  border: solid 1px vars.$green-main;
+  border-radius: 0.5rem;
   display: flex;
   flex-direction: row;
+
 }
 
 .img1{
   width: 13%;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
 }
 
 .selection-1{
@@ -100,12 +105,28 @@ font-style: italic;
 .biome-pays-regime{
   display: flex;
   flex-direction: column;
-  margin: 2rem 0 0 4rem;
+  margin: 1rem 0 0 4rem;
 }
 
+.contenaire-info{
+  margin: 0 0 1rem 0;
+}
 
-.ad-right{
+.icone{
+  width: 2rem;
+  margin: 0 0 0 0;
+}
+
+.info-name{
+  position: relative;
+  margin:  0 0 1rem 1rem;
+  bottom: 0.8rem;
+}
+
+.ad-droit{
+  background-color: #f2f2f2;
   width: 160px;
   height: 600px;
-  margin: 2rem 0 0 2rem;
+  margin: 2rem 0 0 0;
 }
+

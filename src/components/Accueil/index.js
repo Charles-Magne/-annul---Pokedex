@@ -1,6 +1,14 @@
 import Header from "../Header";
 import "./style.scss";
+
+//les icones
 import face from "../../assets/pictures/face-a-face.jpg";
+import globe from "../../assets/icone/monde.png";
+import biome from "../../assets/icone/savane.png";
+import plate from "../../assets/icone/en-mangeant.png";
+
+// font alsome 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Accueil() {
   return (
@@ -19,6 +27,7 @@ function Accueil() {
               <div class="search_filter--alimentation search_option">
                 Omnivore
               </div>
+              <button>Au hasard</button>
             </div>
           </div>
           <div class="number-results">8 Résultats</div>
@@ -31,16 +40,23 @@ function Accueil() {
                 <span class="animal-underSort">sous-espece</span>
               </div>
               <div class="biome-pays-regime">
-                <span>Biome</span>
-                <span>Pays</span>
-                <span>Regime</span>
+                <div class="contenaire-info">
+                  <img class="icone_world icone" src={biome} alt="word icone"/>
+                  <span class="info-name">Biome</span>
+                </div>
+                <div class="contenaire-info">
+                  <img class="icone_world icone" src={globe} alt="world icone"/>
+                  <span class="info-name" >pays</span>
+                </div>
+                <div class="contenaire-info">
+                  <img class="icone_world icone" src={plate} alt="word icone"/>
+                  <span class="info-name" >régime</span>
+                </div>
               </div>
             </div>
-            <span>Proies</span>
-            <span>predateurs</span>
           </article>
         </div>
-        <div class="ad-right">Pub2</div>
+        <div class="ad-droit">Pub2</div>
       </div>
     </div>
   );
