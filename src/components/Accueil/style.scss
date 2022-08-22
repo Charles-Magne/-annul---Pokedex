@@ -57,70 +57,29 @@
   padding: 0.3rem 1rem;
   margin: 0 0 1rem 0;
 }
+.arrow_down{
+  width: 0.5rem;
+  margin: 0 0 0 1rem;
+}
+
+.ramdowm_button{
+  margin: 0 0 1rem 0;
+  border-radius: 0.5rem;
+  border: 1px solid vars.$green-white;
+  background-color: vars.$second-color;
+  box-shadow: 2px 2px 3px vars.$green-black;
+}
+
+.random_icone{
+  position: relative;
+  top: 0.2rem;
+  width: 1rem;
+  margin: 0 0.5rem 0 0;
+}
 
 .number-results {
   margin: 1rem 0 1rem 2rem;
-  background-color: white;
-font-style: italic;
-}
-
-.card-animal{
-  border: solid 1px vars.$green-main;
-  border-radius: 0.5rem;
-  display: flex;
-  flex-direction: row;
-
-}
-
-.img1{
-  width: 13%;
-  margin: 0.5rem;
-  border-radius: 0.5rem;
-}
-
-.selection-1{
-  margin: 1.2rem 0 0 0;
-}
-
-.name-espece-container{
-  display: flex;
-  flex-direction: row;
-}
-
-.animal-name{
-  display: block;
-  font-size: 1.8rem;
-  margin: 0 1rem 0 4rem;
-  font-weight: 600;
-}
-
-.animal-sort{
-  margin: 0.6rem 0 0 0;
-}
-
-.animal-underSort{
-  margin: 0.6rem 0 0 1rem;
-}
-
-.biome-pays-regime{
-  display: flex;
-  flex-direction: column;
-  margin: 1rem 0 0 4rem;
-}
-
-.contenaire-info{
-  margin: 0 0 1rem 0;
-}
-
-.icone{
-  width: 2rem;
-  margin: 0 0 0 0;
-}
-
-.info-name{
-  position: relative;
-  margin:  0 0 1rem 1rem;
-  bottom: 0.8rem;
+  font-style: italic;
 }
 
 .ad-droit{
