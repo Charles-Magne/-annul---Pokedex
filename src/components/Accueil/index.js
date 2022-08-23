@@ -17,35 +17,35 @@ function Accueil() {
   return (
     <div>
       <Header />
-      <div class="Pseudo_Body">
-        <div class="ad-Left">Pub1</div>
-        <div class="page-container">
-          <div class="search-and-option-container">
-            <div class="search-bar_container">
-              <input class="search-bar" placeholder="Search"></input>
+      <div className="Pseudo_Body">
+        <div className="ad-Left">Pub1</div>
+        <div className="page-container">
+          <div className="search-and-option-container">
+            <div className="search-bar_container">
+              <input className="search-bar" placeholder="Search"></input>
             </div>
-            <div class="search_filter">
-              <div class="search_filter--biome search_option">
+            <div className="search_filter">
+              <div className="search_filter--biome search_option">
                 Biome
-                <img class="arrow_down" src={arrowDown} alt="arrow_down" />
+                <img className="arrow_down" src={arrowDown} alt="arrow_down" />
               </div>
-              <div class="search_filter--country search_option">
+              <div className="search_filter--country search_option">
                 Pays
-                <img class="arrow_down" src={arrowDown} alt="arrow_down" />
+                <img className="arrow_down" src={arrowDown} alt="arrow_down" />
               </div>
-              <div class="search_filter--alimentation search_option">
+              <div className="search_filter--alimentation search_option">
                 Omnivore
-                <img class="arrow_down" src={arrowDown} alt="arrow_down" />
+                <img className="arrow_down" src={arrowDown} alt="arrow_down" />
               </div>
-              <button class="ramdowm_button">
-              <img class="random_icone" src={random} alt="random_icone" />
+              <button className="ramdowm_button">
+              <img className="random_icone" src={random} alt="random_icone" />
                 Au hasard</button>
             </div>
           </div>
-          <div class="number-results">8 Résultats</div>
+          <div className="number-results">8 Résultats</div>
           <CardAnimal/>
         </div>
-        <div class="ad-droit">Pub2</div>
+        <div className="ad-droit">Pub2</div>
       </div>
     </div>
   );

@@ -1,17 +1,29 @@
 // ici on import les actions
 
-import { FETCH_ALL_ANIMAL } from "../action/animal";
+import { SAVE_ANIMAL, SAVE_NORISS } from "../action/animal";
 
 //on appelle le initalSate
-const initialState = {
-  fetchAllAnimal: '',
-}
+export const initialState = {
+  list: [],
+  fact: '',
+};
 
 function animalReducer(state = initialState, action = {}) {
   switch (action.type) {
-    case FETCH_ALL_ANIMAL:
-
+    case SAVE_ANIMAL:
+      return {
+        ...state,
+        list: action.Animal,
+      };
+      case SAVE_NORISS:
+      return {
+        ...state,
+        fact: action.fact,
+      };
+      default:
+        return state;
   }
-}
+};
+
 
 export default animalReducer;

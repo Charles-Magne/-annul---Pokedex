@@ -3,12 +3,12 @@ import "./style.scss";
 function header() {
   return (
     <div>
-      <div class="title_contener">
-        <span class="title_main">Anim'O</span>
-        <nav class="navbar">
-          <navlink class="nav-bar_cat">Encyclopedie</navlink>
-          <navlink class="nav-bar_cat">Chaine alimentaire</navlink>
-          <navlink class="nav-bar_cat">Tableau des espèces</navlink>
+      <div className="title_contener">
+        <span className="title_main">Anim'O</span>
+        <nav className="navbar">
+          <div className="nav-bar_cat">Encyclopedie</div>
+          <div className="nav-bar_cat">Chaine alimentaire</div>
+          <div className="nav-bar_cat">Tableau des espèces</div>
         </nav>
       </div>
     </div>

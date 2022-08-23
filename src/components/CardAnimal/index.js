@@ -12,30 +12,30 @@ import {
 
 function CardAnimal() {
   return (
-    <article class="card-animal">
-            <img class="img1" src={face} alt="animal picture" />
-            <div class="selection-1">
-              <div class="name-espece-container">
-                <span class="animal-name">Aigle</span>
-                <span class="animal-sort">Espece</span>
-                <span class="animal-underSort">sous-espece</span>
+    <article className="card-animal">
+            <img className="img1" src={face} alt="animal picture" />
+            <div className="selection-1">
+              <div className="name-espece-container">
+                <span className="animal-name">Aigle</span>
+                <span className="animal-sort">Espece</span>
+                <span className="animal-underSort">sous-espece</span>
               </div>
-              <div class="biome-pays-regime">
-                <div class="contenaire-info">
-                  <img class="icone_world icone" src={biome} alt="word icone" />
-                  <span class="info-name">Biome</span>
+              <div className="biome-pays-regime">
+                <div className="contenaire-info">
+                  <img className="icone_world icone" src={biome} alt="word icone" />
+                  <span className="info-name">Biome</span>
                 </div>
-                <div class="contenaire-info">
+                <div className="contenaire-info">
                   <img
-                    class="icone_world icone"
+                    className="icone_world icone"
                     src={globe}
                     alt="world icone"
                   />
-                  <span class="info-name">pays</span>
+                  <span className="info-name">pays</span>
                 </div>
-                <div class="contenaire-info">
-                  <img class="icone_world icone" src={plate} alt="word icone" />
-                  <span class="info-name">régime</span>
+                <div className="contenaire-info">
+                  <img className="icone_world icone" src={plate} alt="word icone" />
+                  <span className="info-name">régime</span>
                 </div>
               </div>
             </div>
